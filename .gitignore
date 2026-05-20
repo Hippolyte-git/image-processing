@@ -20,3 +20,6 @@
 
 # Allow this file
 !.gitignore
+
+# Allow README
+!README.md
