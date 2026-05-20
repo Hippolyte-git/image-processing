@@ -1,0 +1,22 @@
+# Ignore everything by default
+*
+
+# Allow folders
+!Images/
+!Images/**
+!src/
+!projet/
+
+# Allow specific notebooks in src/
+!src/tp_1.ipynb
+!src/tp_deconvolution.ipynb
+!src/tp_diagram2.ipynb
+!src/tp_image_enhancement.ipynb
+!src/tp_segmentation_of_follclides.ipynb
+!src/tpdenoising.ipynb
+
+# Allow pipeline notebook in projet/
+!projet/pipeline.ipynb
+
+# Allow this file
+!.gitignore
