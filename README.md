@@ -2,6 +2,8 @@
 
 ## Description
 
+This is part of a master course of Image Processing from Ecole des mines de saint-etienne.
+
 <!-- Describe the course and its objectives here -->
 
 ## Notebooks
