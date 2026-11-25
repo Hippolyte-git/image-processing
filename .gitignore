@@ -1,25 +1,25 @@
-# Ignore everything by default
-*
+# Python & environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
 
-# Allow folders
-!Images/
-!Images/**
-!src/
-!projet/
+# Jupyter checkpoints
+.ipynb_checkpoints/
 
-# Allow specific notebooks in src/
-!src/tp_1.ipynb
-!src/tp_deconvolution.ipynb
-!src/tp_diagram2.ipynb
-!src/tp_image_enhancement.ipynb
-!src/tp_segmentation_of_follclides.ipynb
-!src/tpdenoising.ipynb
+# Local course materials, raw archives & drafts (not for public repo)
+Cours/
+fits_data/
+src/
+projet/
+projet.ipynb
 
-# Allow pipeline notebook in projet/
-!projet/pipeline.ipynb
+# Generated report artifacts
+project/report_*.pdf
+labs/*.pdf
 
-# Allow this file
-!.gitignore
-
-# Allow README
-!README.md
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
